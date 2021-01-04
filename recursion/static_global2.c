@@ -1,9 +1,10 @@
 #include<stdio.h>
+
 int fun(int c){
-	
+	static  int x=0;
 	if(c>0){
-		
-		return fun(c-1)+c;
+		x++;
+		return fun(c-1)+x;
 	}
 	return 0;
 }
