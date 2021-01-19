@@ -10,7 +10,7 @@ int main(){
         r=n%10;
         n=n/10;
         dn=dn+r*pow(2,i);  
-        i++;
+        i++;    
         }
     cout<<"Converted binary number is "<<dn;
     return 0;
