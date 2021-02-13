@@ -11,6 +11,7 @@ void  space_string(){
 	cout<<"Enter the string \n";
 	cin>>a;
 	cout<<"Your answer is "<<a<<endl;;
+	cout<<"Length is"<<a.length();
 }
 
 int main(){
