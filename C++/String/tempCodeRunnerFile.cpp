@@ -1,0 +1,1 @@
+cout<<str[num - 2]<<endl;
